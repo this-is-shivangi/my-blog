@@ -8,6 +8,7 @@ p{
 }
 
 .header{
+    background-image: linear-gradient(to left,rgba(157, 8, 226, 0),rgb(71, 2, 99));
     background-color: lightcoral;
 
 }
@@ -19,7 +20,15 @@ p{
     .header{
         background-color: red;
     }
-    p{
-        color:orange;
-    }
+    
 }
+
+.card h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:2px 2px 5px rgb(107, 39, 107);
+}
+
+.card a:hover{
+    color:firebrick;
+}
+
