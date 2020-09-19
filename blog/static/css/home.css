@@ -1,6 +1,6 @@
-body{
-    margin:0px;
-    padding:0px;
+#def body{
+    margin:10px;
+    padding:10px;
 }
 
 p{
@@ -10,7 +10,6 @@ p{
 .header{
     background-image: linear-gradient(to left,rgba(157, 8, 226, 0),rgb(71, 2, 99));
     background-color: lightcoral;
-
 }
 .header h1{
     text-align: center;
@@ -23,7 +22,7 @@ p{
     
 }
 
-.card h1{
+.card-title h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow:2px 2px 5px rgb(107, 39, 107);
 }
@@ -32,3 +31,25 @@ p{
     color:firebrick;
 }
 
+#abc a{
+    color:rgb(37, 2, 2);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#abc a:hover{
+    color:rgb(71, 2, 99);
+}
+
+footer{
+    
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(150, 69, 42);
+    background-image: linear-gradient(to left,rgba(157, 8, 226, 0),rgb(71, 2, 99));
+}
+
+footer a{
+    font-style:inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
